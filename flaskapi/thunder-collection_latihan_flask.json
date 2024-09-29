@@ -1,0 +1,271 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "latihan_flask",
+    "collectionId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+    "dateExported": "2024-09-29T07:38:07.111Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3e12e17d-bc91-459a-8ef8-2398858c2c72",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode GET",
+            "url": "http://127.0.0.1:5000/user/getall",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-22T13:10:30.354Z",
+            "modified": "2024-09-29T04:21:56.668Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoxLCJuYW1lIjoic2F0dWFuIiwiZW1haWwiOiJ0ZXN0QGNvbSIsInBob25lIjoiMTIzNDU2NyIsImF2YXRhciI6InVwbG9hZC8xNzI3MzkzMjE3MTExNzYucG5nIiwicm9sZV9pZCI6MX0sImV4cCI6MTcyNzU4NDU5NH0.72SxYUZRIWZNOBAd_-oqpUablJm7j_fqi2A5rcRRDFQ"
+                }
+            ]
+        },
+        {
+            "_id": "d3ad452b-f756-44d3-8598-a64b157ec3ad",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode POST",
+            "url": "http://127.0.0.1:5000/user/addone",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-09-22T13:15:28.037Z",
+            "modified": "2024-09-29T04:22:30.104Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoxLCJuYW1lIjoic2F0dWFuIiwiZW1haWwiOiJ0ZXN0QGNvbSIsInBob25lIjoiMTIzNDU2NyIsImF2YXRhciI6InVwbG9hZC8xNzI3MzkzMjE3MTExNzYucG5nIiwicm9sZV9pZCI6MX0sImV4cCI6MTcyNzU4NDU5NH0.72SxYUZRIWZNOBAd_-oqpUablJm7j_fqi2A5rcRRDFQ"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "budiman AZIS"
+                    },
+                    {
+                        "name": "email",
+                        "value": "azis.mcgr@yahoo.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "08225875787"
+                    },
+                    {
+                        "name": "role",
+                        "value": "admin"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "846be800-a15c-4ba0-9702-3957dd0cd377",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode PUT",
+            "url": "http://127.0.0.1:5000/user/update",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-09-22T14:33:58.219Z",
+            "modified": "2024-09-22T14:38:54.069Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id",
+                        "value": "1"
+                    },
+                    {
+                        "name": "name",
+                        "value": "satuan"
+                    },
+                    {
+                        "name": "email",
+                        "value": "test@com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "1234567"
+                    },
+                    {
+                        "name": "role",
+                        "value": "ad"
+                    },
+                    {
+                        "name": "password",
+                        "value": "sasa"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "14a4729d-39f7-4529-a77e-e45eefbd34a9",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode DELETE",
+            "url": "http://127.0.0.1:5000/user/delete/12",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-09-22T14:48:23.387Z",
+            "modified": "2024-09-22T15:01:58.006Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id",
+                        "value": "6"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "3d8a7b20-f6c8-4822-be8f-80124de90766",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode PATCH",
+            "url": "http://127.0.0.1:5000/user/patch/8",
+            "method": "PATCH",
+            "sortNum": 60000,
+            "created": "2024-09-23T23:21:32.465Z",
+            "modified": "2024-09-23T23:50:24.743Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phone",
+                        "value": "56789"
+                    },
+                    {
+                        "name": "role",
+                        "value": "sys"
+                    },
+                    {
+                        "name": "email",
+                        "value": "bapakbudima@yahoo.com"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a645544b-8f2d-4c76-8fa2-ffba5a9941a7",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode Pagination",
+            "url": "http://127.0.0.1:5000/user/getall/limit/2/page/3",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-09-24T22:50:16.520Z",
+            "modified": "2024-09-24T23:34:57.929Z",
+            "headers": []
+        },
+        {
+            "_id": "81a87eb6-3924-490d-9972-9b1f5fd8080a",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode PUT Avatar",
+            "url": "http://127.0.0.1:5000/user/17/upload/avatar",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-09-25T23:31:35.851Z",
+            "modified": "2024-09-26T01:33:22.911Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "avatar",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "avatar",
+                        "value": "/home/developer/python/restapi/flaskapi/1.png"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "e1761bff-5582-4eea-8e29-8345be438954",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methode Patch Image",
+            "url": "http://127.0.0.1:5000/upload/1.png",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-09-28T10:33:47.026Z",
+            "modified": "2024-09-28T10:34:00.493Z",
+            "headers": []
+        },
+        {
+            "_id": "60766e70-fa20-45e2-bdd0-9623bfba6bdb",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "Methodes JWT",
+            "url": "http://127.0.0.1:5000/user/login",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-09-28T14:58:15.449Z",
+            "modified": "2024-09-28T22:33:33.218Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "test@com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "sasa"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "f43e5a84-d025-4332-84ab-6219c1de6f6d",
+            "colId": "f8f7d3db-89e2-4f36-89bc-d50c3d8c3437",
+            "containerId": "",
+            "name": "methode multiple update",
+            "url": "http://127.0.0.1:5000/user/addmultiple",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-09-29T07:11:12.074Z",
+            "modified": "2024-09-29T07:35:56.702Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\"name\":\"azisnew\" ,\n  \"email\":\"azisnew@gmail.com\",\n  \"phone\":\"124545\",\n  \"role_id\":1,\n  \"password\":\"123456\"\n  }\n,\n  {\"name\":\"azisnew1\" ,\n  \"email\":\"azisnew1@gmail.com\",\n  \"phone\":\"1245455\",\n  \"role_id\":12,\n  \"password\":\"12345678\"\n  }\n\n]",
+                "form": []
+            }
+        }
+    ],
+    "ref": "3G33OmYD7kJEkQd8SQVbMmMfqZZT8LWvtcCgJdsLxN1t_hs9f6v34Vq_O_3QdnSEO7UjH6LMhHDqHtxCOtDNjw"
+}
